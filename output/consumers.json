@@ -1,0 +1,574 @@
+[
+  [
+    {
+      "identifier": 0,
+      "max_price": 100,
+      "purchased": true
+    },
+    {
+      "identifier": 1,
+      "max_price": 100,
+      "purchased": true
+    },
+    {
+      "identifier": 2,
+      "max_price": 100,
+      "purchased": true
+    },
+    {
+      "identifier": 3,
+      "max_price": 100,
+      "purchased": true
+    },
+    {
+      "identifier": 4,
+      "max_price": 100,
+      "purchased": true
+    },
+    {
+      "identifier": 5,
+      "max_price": 100,
+      "purchased": true
+    },
+    {
+      "identifier": 6,
+      "max_price": 100,
+      "purchased": true
+    },
+    {
+      "identifier": 7,
+      "max_price": 100,
+      "purchased": true
+    },
+    {
+      "identifier": 8,
+      "max_price": 100,
+      "purchased": true
+    },
+    {
+      "identifier": 9,
+      "max_price": 100,
+      "purchased": true
+    }
+  ],
+  [
+    {
+      "identifier": 9,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 7,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 2,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 4,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 1,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 5,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 3,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 8,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 6,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 0,
+      "max_price": 95,
+      "purchased": true
+    }
+  ],
+  [
+    {
+      "identifier": 6,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 8,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 9,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 1,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 2,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 5,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 3,
+      "max_price": 90,
+      "purchased": false
+    },
+    {
+      "identifier": 4,
+      "max_price": 90,
+      "purchased": false
+    },
+    {
+      "identifier": 7,
+      "max_price": 90,
+      "purchased": false
+    },
+    {
+      "identifier": 0,
+      "max_price": 90,
+      "purchased": false
+    }
+  ],
+  [
+    {
+      "identifier": 0,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 6,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 4,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 5,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 7,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 9,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 1,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 8,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 3,
+      "max_price": 95,
+      "purchased": true
+    },
+    {
+      "identifier": 2,
+      "max_price": 85,
+      "purchased": false
+    }
+  ],
+  [
+    {
+      "identifier": 0,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 6,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 1,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 4,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 3,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 8,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 2,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 7,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 9,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 5,
+      "max_price": 80,
+      "purchased": false
+    }
+  ],
+  [
+    {
+      "identifier": 1,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 8,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 2,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 0,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 7,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 5,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 4,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 9,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 3,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 6,
+      "max_price": 85,
+      "purchased": false
+    }
+  ],
+  [
+    {
+      "identifier": 5,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 4,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 2,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 8,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 9,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 1,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 0,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 7,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 3,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 6,
+      "max_price": 90,
+      "purchased": true
+    }
+  ],
+  [
+    {
+      "identifier": 2,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 9,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 5,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 4,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 8,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 7,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 3,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 1,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 0,
+      "max_price": 85,
+      "purchased": false
+    },
+    {
+      "identifier": 6,
+      "max_price": 85,
+      "purchased": false
+    }
+  ],
+  [
+    {
+      "identifier": 9,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 5,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 0,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 6,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 4,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 7,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 8,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 1,
+      "max_price": 90,
+      "purchased": true
+    },
+    {
+      "identifier": 2,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 3,
+      "max_price": 90,
+      "purchased": true
+    }
+  ],
+  [
+    {
+      "identifier": 5,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 4,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 6,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 7,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 2,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 9,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 1,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 0,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 8,
+      "max_price": 85,
+      "purchased": true
+    },
+    {
+      "identifier": 3,
+      "max_price": 85,
+      "purchased": true
+    }
+  ],
+  [
+    {
+      "identifier": 2,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 3,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 1,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 7,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 4,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 9,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 0,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 6,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 5,
+      "max_price": 80,
+      "purchased": false
+    },
+    {
+      "identifier": 8,
+      "max_price": 80,
+      "purchased": false
+    }
+  ]
+]

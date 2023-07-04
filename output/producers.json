@@ -1,0 +1,794 @@
+[
+  [
+    {
+      "identifier": 0,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 1,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 2,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 3,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 4,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 5,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 6,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 7,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 8,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 9,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 10,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 11,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 12,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 13,
+      "min_price": 90,
+      "sold": false
+    }
+  ],
+  [
+    {
+      "identifier": 13,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 6,
+      "min_price": 95,
+      "sold": true
+    },
+    {
+      "identifier": 3,
+      "min_price": 95,
+      "sold": true
+    },
+    {
+      "identifier": 7,
+      "min_price": 95,
+      "sold": true
+    },
+    {
+      "identifier": 9,
+      "min_price": 95,
+      "sold": true
+    },
+    {
+      "identifier": 0,
+      "min_price": 95,
+      "sold": true
+    },
+    {
+      "identifier": 1,
+      "min_price": 95,
+      "sold": true
+    },
+    {
+      "identifier": 5,
+      "min_price": 95,
+      "sold": true
+    },
+    {
+      "identifier": 8,
+      "min_price": 95,
+      "sold": true
+    },
+    {
+      "identifier": 10,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 2,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 12,
+      "min_price": 85,
+      "sold": false
+    },
+    {
+      "identifier": 11,
+      "min_price": 85,
+      "sold": false
+    },
+    {
+      "identifier": 4,
+      "min_price": 95,
+      "sold": false
+    }
+  ],
+  [
+    {
+      "identifier": 9,
+      "min_price": 100,
+      "sold": false
+    },
+    {
+      "identifier": 7,
+      "min_price": 100,
+      "sold": false
+    },
+    {
+      "identifier": 11,
+      "min_price": 80,
+      "sold": true
+    },
+    {
+      "identifier": 0,
+      "min_price": 100,
+      "sold": false
+    },
+    {
+      "identifier": 3,
+      "min_price": 100,
+      "sold": false
+    },
+    {
+      "identifier": 10,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 4,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 13,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 2,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 5,
+      "min_price": 100,
+      "sold": false
+    },
+    {
+      "identifier": 6,
+      "min_price": 100,
+      "sold": false
+    },
+    {
+      "identifier": 12,
+      "min_price": 80,
+      "sold": true
+    },
+    {
+      "identifier": 8,
+      "min_price": 100,
+      "sold": false
+    },
+    {
+      "identifier": 1,
+      "min_price": 100,
+      "sold": false
+    }
+  ],
+  [
+    {
+      "identifier": 8,
+      "min_price": 95,
+      "sold": true
+    },
+    {
+      "identifier": 6,
+      "min_price": 95,
+      "sold": true
+    },
+    {
+      "identifier": 10,
+      "min_price": 95,
+      "sold": true
+    },
+    {
+      "identifier": 12,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 5,
+      "min_price": 95,
+      "sold": true
+    },
+    {
+      "identifier": 9,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 11,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 2,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 3,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 1,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 4,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 7,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 13,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 0,
+      "min_price": 95,
+      "sold": false
+    }
+  ],
+  [
+    {
+      "identifier": 9,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 3,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 2,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 11,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 12,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 5,
+      "min_price": 100,
+      "sold": false
+    },
+    {
+      "identifier": 13,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 1,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 7,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 0,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 4,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 10,
+      "min_price": 100,
+      "sold": false
+    },
+    {
+      "identifier": 6,
+      "min_price": 100,
+      "sold": false
+    },
+    {
+      "identifier": 8,
+      "min_price": 100,
+      "sold": false
+    }
+  ],
+  [
+    {
+      "identifier": 10,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 0,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 1,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 6,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 12,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 3,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 8,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 7,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 4,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 11,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 2,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 13,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 9,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 5,
+      "min_price": 95,
+      "sold": false
+    }
+  ],
+  [
+    {
+      "identifier": 8,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 1,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 12,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 6,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 4,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 10,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 2,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 5,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 13,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 11,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 0,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 9,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 3,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 7,
+      "min_price": 90,
+      "sold": false
+    }
+  ],
+  [
+    {
+      "identifier": 12,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 6,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 9,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 3,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 0,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 11,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 13,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 10,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 1,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 5,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 8,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 2,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 4,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 7,
+      "min_price": 85,
+      "sold": true
+    }
+  ],
+  [
+    {
+      "identifier": 9,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 3,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 2,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 4,
+      "min_price": 90,
+      "sold": true
+    },
+    {
+      "identifier": 7,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 5,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 11,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 10,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 8,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 6,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 12,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 13,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 1,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 0,
+      "min_price": 90,
+      "sold": false
+    }
+  ],
+  [
+    {
+      "identifier": 3,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 5,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 13,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 1,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 0,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 4,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 12,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 8,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 6,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 10,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 11,
+      "min_price": 85,
+      "sold": true
+    },
+    {
+      "identifier": 9,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 2,
+      "min_price": 95,
+      "sold": false
+    },
+    {
+      "identifier": 7,
+      "min_price": 85,
+      "sold": true
+    }
+  ],
+  [
+    {
+      "identifier": 13,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 10,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 2,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 0,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 4,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 3,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 5,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 8,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 6,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 1,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 11,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 12,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 7,
+      "min_price": 90,
+      "sold": false
+    },
+    {
+      "identifier": 9,
+      "min_price": 90,
+      "sold": false
+    }
+  ]
+]
