@@ -1,43 +1,41 @@
-use crate::producers;
-use serde::Serialize;
+use crate::market::Consumer;
+use crate::stats::ConsumerStats;
 
-#[derive(Clone, Serialize)]
-pub struct Consumer {
-    identifier: i32,
+pub struct SimplisticOnePurchaseConsumer {
     max_price: i32,
-    purchased: bool,
+
+    // -- STATS PURPOSES ---
+    purchased: Option<i32>,
 }
 
-impl Consumer {
-    pub fn new(id: i32, max_price: i32) -> Self {
-        Self {
-            identifier: id,
+impl SimplisticOnePurchaseConsumer {
+    pub fn new(max_price: i32) -> Self {
+        return SimplisticOnePurchaseConsumer {
             max_price,
-            purchased: false,
+            purchased: None,
+        };
+    }
+}
+
+impl Consumer for SimplisticOnePurchaseConsumer {
+    fn give_offer(&mut self, offer: i32) -> bool {
+        if offer <= self.max_price && self.purchased.is_none() {
+            self.purchased = Some(offer);
+            return true;
         }
+
+        return false;
     }
 
-    pub fn merchent_offer(&mut self, producer: &mut producers::Producer) -> bool {
-        if self.purchased == true {
-            return false;
-        }
-
-        let accepted_offer = producer.offer(self.max_price);
-
-        if accepted_offer {
-            self.purchased = true;
-        }
-        return self.purchased;
+    fn reset(&mut self) {
+        self.purchased = None;
     }
 
-    pub fn get_status(&self) -> Self {
-        return self.clone();
-    }
-
-    pub fn react_and_reset(&mut self) {
-        self.max_price += if self.purchased { -5 } else { 5 };
-
-        // reset
-        self.purchased = false;
+    fn get_stats(&self) -> ConsumerStats {
+        ConsumerStats {
+            max_price: self.max_price,
+            purchase_price: self.purchased.unwrap_or(0),
+            purchased: self.purchased.is_some(),
+        }
     }
 }

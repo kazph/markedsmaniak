@@ -1,41 +1,41 @@
-use serde::Serialize;
+use crate::{market::Producer, stats::ProducerStats};
 
-#[derive(Clone, Serialize)]
-pub struct Producer {
-    identifier: i32,
+pub struct SimplisticOnePurchaseConsumer {
     min_price: i32,
-    sold: bool,
+    sold: Option<i32>,
 }
 
-impl Producer {
-    pub fn new(id: i32, min_price: i32) -> Self {
-        Self {
-            identifier: id,
+impl SimplisticOnePurchaseConsumer {
+    pub fn new(min_price: i32) -> Self {
+        SimplisticOnePurchaseConsumer {
             min_price,
-            sold: false,
+            sold: None,
         }
     }
+}
 
-    pub fn offer(&mut self, price: i32) -> bool {
-        if self.sold == true {
-            return false;
+impl Producer for SimplisticOnePurchaseConsumer {
+    fn get_offer(&self) -> Option<i32> {
+        if self.sold.is_none() {
+            return Some(self.min_price);
         }
-
-        if price >= self.min_price {
-            self.sold = true;
-            return true;
-        }
-        return false;
+        
+        return None;
     }
 
-    pub fn get_status(&self) -> Self {
-        return self.clone();
+    fn accept_offer(&mut self, offer: i32) {
+        self.sold = Some(offer);
     }
 
-    pub fn react_and_reset(&mut self) {
-        self.min_price += if self.sold { 5 } else { -5 };
+    fn reset(&mut self) {
+        self.sold = None;
+    }
 
-        // reset
-        self.sold = false;
+    fn get_stats(&self) -> ProducerStats {
+        ProducerStats {
+            min_price: self.min_price,
+            selling_price: self.sold.unwrap_or(0),
+            sold: self.sold.is_some(),
+        }
     }
 }
