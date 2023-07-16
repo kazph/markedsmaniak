@@ -1,25 +1,25 @@
 use crate::{market::Producer, stats::ProducerStats};
 
-pub struct SimplisticOnePurchaseConsumer {
+pub struct SimplisticOneProductProducer {
     min_price: i32,
     sold: Option<i32>,
 }
 
-impl SimplisticOnePurchaseConsumer {
+impl SimplisticOneProductProducer {
     pub fn new(min_price: i32) -> Self {
-        SimplisticOnePurchaseConsumer {
+        SimplisticOneProductProducer {
             min_price,
             sold: None,
         }
     }
 }
 
-impl Producer for SimplisticOnePurchaseConsumer {
+impl Producer for SimplisticOneProductProducer {
     fn get_offer(&self) -> Option<i32> {
         if self.sold.is_none() {
             return Some(self.min_price);
         }
-        
+
         return None;
     }
 
@@ -36,6 +36,7 @@ impl Producer for SimplisticOnePurchaseConsumer {
             min_price: self.min_price,
             selling_price: self.sold.unwrap_or(0),
             sold: self.sold.is_some(),
+            expected_price: self.min_price,
         }
     }
 }

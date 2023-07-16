@@ -1,6 +1,5 @@
 use crate::stats::{ConsumerStats, ProducerStats};
-use rand::{thread_rng, seq::SliceRandom};
-
+use rand::{seq::SliceRandom, thread_rng};
 
 pub trait Consumer {
     fn give_offer(&mut self, offer: i32) -> bool;
@@ -25,7 +24,6 @@ pub struct Marked {
     producers: Vec<Box<dyn Producer>>,
 
     rng: rand::rngs::ThreadRng,
-
 }
 
 impl Marked {
@@ -45,6 +43,7 @@ impl Marked {
                 let accepted = consum.as_mut().give_offer(offer);
 
                 if accepted {
+                    println!("TRADE!");
                     prod.as_mut().accept_offer(offer);
                 }
             }
@@ -80,7 +79,6 @@ impl Marked {
         for con in &self.consumers {
             consumer_stats.push(con.get_stats());
         }
-
 
         return (producer_stats, consumer_stats);
     }
