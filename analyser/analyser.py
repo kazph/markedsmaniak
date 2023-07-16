@@ -18,6 +18,7 @@ def analyse_round(consumer_round, producer_round):
             consumer["max_price"],
             consumer["purchase_price"],
             consumer["purchased"],
+            consumer["expected_price"],
         ))
     
     for producer in producer_round:
@@ -25,6 +26,7 @@ def analyse_round(consumer_round, producer_round):
             producer["min_price"],
             producer["selling_price"],
             producer["sold"],
+            producer["expected_price"],
         ))
     
     consumers.sort(key=lambda x: -x[0])
